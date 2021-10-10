@@ -6,13 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
     <link rel="stylesheet" href="style.css">
+
+<style>
+     ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+     li {
+          float: left;
+        }
+        
+    li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+    li a:hover {
+          background-color: #111;
+        }
+ </style>
 </head>
 
 
 <body>
     <img src="Images/RainyDays_Logo.png" alt="logo" style="width: 212px; height: auto;" class="center">
+
     <ul>
-        <li><a href="New arrivals.asp">NEW ARRIVALS</a></li>
+        <li><a class="active" href="New arrivals.asp">NEW ARRIVALS</a></li>
         <li><a href="Mens.asp">MENS</a></li>
         <li><a href="Womens.asp">WOMENS</a></li>
         <li><a href="Contact.asp">CONTACT</a></li>
